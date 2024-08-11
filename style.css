@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: 'Inter';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formulario{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 300px;
+    gap: 10px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.email, .senha{
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.botao{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 14px;
+    background-color: rgb(216, 215, 255);
+    border: none;
+    cursor: pointer;
+}

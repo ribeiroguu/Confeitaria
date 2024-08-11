@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Confeitaria</header>
+    <div class="capa-center">
+        <div class="capa">
+            <img id="logo" src="img/logo.jpg">
+            <span>Seg á Sex - 07:00 ás 18:00</span>
+        </div>
+    </div>
+
+    <div id="menu">
+        <main>
+            <div class="produto">
+                <img src="img/bolo_simples.jpg">
+                <div class="descricao">
+                    <span>Bolo Simples</span>
+                    <p>Bolo simples, sem topo e sem adicionais</p>
+
+                    <div class="add">
+                        <p>R$135.00</p>
+                        <div class="add-btn" data-name="Bolo Simples" data-price="135.00">ADD</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="produto">
+                <img src="img/bolo.jpg">
+                <div class="descricao">
+                    <span>Bolo Comum</span>
+                    <p>bolo sem topo e sem adicionais</p>
+
+                    <div class="add">
+                        <p>R$185.00</p>
+                        <div class="add-btn" data-name="Bolo Comum" data-price="185.00">ADD</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="produto">
+                <img src="img/brigadeiro_chocolate.jpg">
+                <div class="descricao">
+                    <span>Brigadeiro de Chocolate</span>
+                    <p>Um brigadeiro delicioso de chocolate</p>
+
+                    <div class="add">
+                        <p>R$3.00</p>
+                        <div class="add-btn" data-name="Brigradeiro de Chocolate" data-price="3.00">ADD</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="produto">
+                <img src="img/brigadeiro_ninho.jpg">
+                <div class="descricao">
+                    <span>Brigadeiro de Ninho</span>
+                    <p>Um brigadeiro delicioso de Ninho</p>
+
+                    <div class="add">
+                        <p>R$3.00</p>
+                        <div class="add-btn" data-name="Brigadeiro de Ninho" data-price="3.00">ADD</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal-bg" id="modal">
+        <div class="modal">
+            <h2>Meu carrinho</h2>
+            <div id="cart-items"></div>
+            <p>Total: <span id="cart-total">0.00</span></p>
+            <p style="margin-top: 25px;">Endereço de entrega:</p>
+            <input type="text" placeholder="Digite seu endereço" id="endereco">
+            <p style="color: red; display: none;" id="endereco-alerta">Digite seu endereço completo</p>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 15px; width: 100%; flex-direction: row;">
+                <div class="fechar" id="fechar" style="cursor: pointer;">Fechar</div>
+                <div class="finalizar" id="finalizar">Finalizar pedido</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="cart-btn">
+            (<span id="contador">0</span>) Veja meu carrinho
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
