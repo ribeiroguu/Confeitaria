@@ -26,6 +26,7 @@ body{
     font-weight: 700;
     color: #333;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .email, .senha{
@@ -48,4 +49,5 @@ body{
     background-color: rgb(216, 215, 255);
     border: none;
     cursor: pointer;
+    color: #333;
 }
