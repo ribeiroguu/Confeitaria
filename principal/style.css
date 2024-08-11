@@ -58,12 +58,16 @@ header{
 }
 .produto{
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
 }
 .produto img{
     height: 120px;
-    width: 150px;
+    width: 120px;
     border-radius: 15px;
+}
+.produto .descricao{
+    flex: 1;
 }
 .descricao span{
     font-weight: 700;
@@ -76,13 +80,15 @@ header{
    display: flex;
    align-items: center;
    justify-content: space-between;
+   width: 100%;
+   margin-top: auto;
 }
 .add p{
-   font-weight: 700;
+    font-weight: 700;
    font-size: medium;
 }
 .add div{
-   background-color: black;
+    background-color: black;
    border-radius: 7px;
    width: fit-content;
    padding: 5px 9px;
