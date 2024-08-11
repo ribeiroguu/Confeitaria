@@ -16,7 +16,6 @@ function cadastrar() {
     
     firebase.auth().createUserWithEmailAndPassword(document.getElementById("email").value, document.getElementById("senha").value)
         .then(function (user) {
-            alert("seus dados foram cadastrados com sucesso");
             auth = user;
             
             document.getElementById('email').value = ''
