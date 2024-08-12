@@ -126,9 +126,9 @@ finalizarCompra.addEventListener('click', () => {
   }).join(' | ')
 
   const mensagem = encodeURIComponent(itemsCarrinho)
-  const celular = '5555555'
+  const celular = '5533998007250'
 
-  window.open(`https://wa.me/${celular}?text=${mensagem} Endereço: ${endereco.value}`, "_blank")
+  window.open(`https://wa.me/${celular}?text=${mensagem} Sabor: ${endereco.value}`, "_blank")
 
   carrinho = []
   atualizarCarrinho()
