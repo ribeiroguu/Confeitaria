@@ -126,7 +126,7 @@ finalizarCompra.addEventListener('click', () => {
   }).join(' | ')
 
   const mensagem = encodeURIComponent(itemsCarrinho)
-  const celular = '55333338090794'
+  const celular = '5533998090794'
 
   window.open(`https://wa.me/${celular}?text=${mensagem} Sabor: ${endereco.value}`, "_blank")
 
